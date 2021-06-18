@@ -1,0 +1,34 @@
+[
+	{
+		"key": "ctrl+g",
+		"command": "workbench.action.gotoLine"
+	},
+	{
+		"key": "ctrl+[",
+		"command": "workbench.action.terminal.focusPrevious",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+]",
+		"command": "workbench.action.terminal.focusNext",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+cmd+up",
+		"command": "workbench.action.previousSideBarView"
+	},
+	{
+		"key": "ctrl+cmd+down",
+		"command": "workbench.action.nextSideBarView"
+	},
+	{
+		"key": "cmd+j",
+		"command": "selectNextSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	},
+	{
+		"key": "cmd+k",
+		"command": "selectPrevSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+	}
+]

@@ -1,0 +1,74 @@
+{
+	"files.autoSave": "onFocusChange",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"cSpell.userWords": [
+		"CURDATE",
+		"Hieu",
+		"HieuLe"
+	],
+	"python.jediEnabled": false,
+	"sync.gist": "download",
+	"sync.autoDownload": true,
+	"sync.forceDownload": true,
+	"sync.quietSync": false,
+	"python.languageServer": "Microsoft",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.formatOnSave": true,
+	"php.validate.executablePath": "",
+	"workbench.colorTheme": "Dracula",
+	"vim.useSystemClipboard": true,
+	"vim.normalModeKeyBindings": [
+		{
+			"before": [
+				"<tab>"
+			],
+			"commands": [
+				"workbench.action.nextEditor"
+			]
+		},
+		{
+			"before": [
+				"<S-tab>"
+			],
+			"commands": [
+				"workbench.action.previousEditor"
+			]
+		}
+	],
+	"vim.insertModeKeyBindings": [
+		{
+			"before": [
+				"j",
+				"k"
+			],
+			"after": [
+				"<Esc>"
+			]
+		}
+	],
+	"vim.visualModeKeyBindings": [
+		{
+			"before": [
+				"n"
+			],
+			"after": [
+				"<Esc>"
+			]
+		}
+	],
+	"bracketPairColorizer.rulerPosition": "Full",
+	"editor.lineNumbers": "relative",
+	"terminal.integrated.tabs.enabled": true,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
+	"window.zoomLevel": 1,
+	"editor.tabSize": 4,
+	"editor.cursorStyle": "line",
+	"editor.insertSpaces": false,
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.wordWrap": "off",
+	"bracketPairColorizer.showBracketsInRuler": true
+}
